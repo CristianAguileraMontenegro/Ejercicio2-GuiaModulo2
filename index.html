@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <!--boostrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                 <div class="row" id="rowSuperiorIconoYpais">
+                     <div class="col-md-4 col-sm-3" id="iconoYtitulo">
+                        <img src="imagenes/Ima.jpg" alt="">
+                        <h3>Clima</h3>
+                     </div>
+                     <div class="col-md-4 col-sm-3">
+                        
+                     </div>
+                     <div class="col-md-4 offset-md-0 col-sm-3" id="paisYregion">
+                        <h3>Chile, valparaiso</h3>
+                     </div>
+                 </div>
+            </div>
+                <div class="row" id="rowSuperiorTemperatura">
+                    <div class="col-md-12 col-sm-12" id="colBotones">
+                        <button>Celcius</button>
+                        <button>Fahrenheit</button>
+                    </div> 
+                </div>
+            </div>
+        </header>
+
+        <nav id="barraNavegacion">
+            <ul class="nav nav-pills mb-3" id="barraRegions" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Valparaiso-tab" data-bs-toggle="pill" data-bs-target="#pills-Valparaiso" type="button" role="tab" aria-controls="pills-Valparaiso" aria-selected="true">Valparaiso</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Metropolitana-tab" data-bs-toggle="pill" data-bs-target="#pills-Metropolitana" type="button" role="tab" aria-controls="pills-Metropolitana" aria-selected="false">Metropolitana</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Bio_Bio-tab" data-bs-toggle="pill" data-bs-target="#pills-Bio_Bio" type="button" role="tab" aria-controls="pills-Bio_Bio" aria-selected="false">Bio Bio</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Araucania-tab" data-bs-toggle="pill" data-bs-target="#pills-Araucania" type="button" role="tab" aria-controls="pills-Araucania" aria-selected="false">Araucania</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-Valparaiso" role="tabpanel" aria-labelledby="pills-Valparaiso-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-Metropolitana" role="tabpanel" aria-labelledby="pills-Metropolitana-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-Bio_Bio" role="tabpanel" aria-labelledby="pills-Bio_Bio-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="pills-Araucania" role="tabpanel" aria-labelledby="pills-AraucaniaAraucania-tab">
+
+                    </div>
+                </div>
+        </nav>
+
+        
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        <script src="js/generacionDeDias.js" async></script>
+        <script src="js/generacionFormulario.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
